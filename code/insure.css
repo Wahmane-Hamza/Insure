@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+
+nav{
+    position: absolute;
+    background:#fff;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    z-index: 10000;
+}
+
+nav ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 17px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+nav ul li a.active{
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 1px;
+    padding: 10px 22px;
+}
+nav ul li a.active:hover{
+    background: rgb(56, 26, 56);
+    color: #fff;
+}
+
+header{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    color: #fff;
+    background: hsl(256, 26%, 20%);
+    
+}
+#line{
+    position: absolute;
+    width: 200px;
+    height: 1.5px;
+    background: #fff;
+    top:25%;
+    left: 10%;
+}
+
+header h1{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    font-size: 80px;
+    font-family: unset;
+}
+header p{
+    position: absolute;
+    top:58%;
+    left: 10%;
+    font-size: 20px;
+}
+
+#login{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 25px;
+    border: 2px solid #fff;
+    position: absolute;
+    font-size: 1.2em;
+    width:170px ;
+    font-family: 'Courier New', Courier, monospace;
+    top:80%;
+    left: 10%;
+}
+#login:hover{
+    background: #fff;
+    color: #000;
+}
+
+#intro{
+    position: absolute;
+    top:25%;    
+    left: 50%;
+    height: 800px;
+    z-index: 10;
+}
+
+#right{
+    position: absolute;
+    top:0;    
+    right: 0;
+    height: 700px;
+    z-index: 11;
+    
+}
+
+#left{
+    position: absolute;
+    top:80%;    
+    left: 0;
+    height: 500px;
+    z-index: 10;
+}
+
+
+#showcase2{
+    position: relative;
+    height: 170%;
+    background: #fff;
+    color: hsl(256, 26%, 20%);
+  
+}
+#showcase2 h1{
+    top:26%;
+}
+#line2{
+    position: absolute;
+    width: 200px;
+    height: 1.5px;
+    background: hsl(256, 26%, 20%);
+    top:22%;
+    left: 10%;
+}
+
+#snappy{
+    position: absolute;
+    height: 90px;
+    top: 38%;
+    left: 11%;
+}
+#h1{
+    position: absolute;
+    top: 46%;
+    left: 11%; 
+    font-size: 30px;
+}
+#p1{
+    position: absolute;
+    top: 49%;
+    left: 11%; 
+}
+
+
+#money{
+    position: absolute;
+    height: 90px;
+    top: 38%;
+    left: 40%;
+    
+}
+#h2{
+    position: absolute;
+    top: 46%;
+    left: 40%; 
+    font-size: 30px;
+}
+#p2{
+    position: absolute;
+    top: 49%;
+    left: 40%; 
+}
+
+
+#people{
+    position: absolute;
+    height: 90px;
+    top: 38%;
+    left: 69%;
+
+}
+#h3{
+    position: absolute;
+    top: 46%;
+    left: 69%; 
+    font-size: 30px;
+}
+#p3{
+    position: absolute;
+    top: 49%;
+    left: 69%; 
+}
+   
+
+#showcase3{
+    position:absolute;
+    height: 350px;
+    width: 1500px;
+    background:hsl(256, 26%, 20%) ;
+    top: 66%;
+    left: 11%;
+    color: #fff;
+}
+
+#showcase3 h1{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+#howwork{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 34px;
+    border: 2px solid #fff;
+    position: absolute;
+    font-size: 1.2em;
+    width:200px ;
+    font-family: 'Courier New', Courier, monospace;
+    top: 40%;
+    right: 10%;
+    border: 2px solid #fff;
+    z-index: 3;
+}
+
+#howwork:hover{
+    background: #fff;
+    color: hsl(256, 26%, 20%);
+    
+}
+
+
+#howweworkimg{
+    position: absolute;
+    top:0%;    
+    right: 0;
+    height: 350px;
+    z-index: 2;
+}
+
+#showcase4{
+    position: relative;
+    height: 54%;
+    background: hsl(0, 0%, 96%);
+    color: hsl(256, 26%, 20%);
+}
+
+#logoapk{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    padding: 30px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoapk div{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#logoapk div a{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#logoapk div a img{
+    text-decoration: none;
+    width: 30px;
+
+}
+#logoapk div a img:hover{
+    fill: #000;
+    color: #000;
+}
+#line3{
+    position: absolute;
+    width: 1450px;
+    height: 1.5px;
+    background: rgb(179, 179, 179);
+    top: 30%;
+    left: 12%;
+    
+}
+
+#title{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: rgb(150, 150, 150);
+    width: 100%;
+    padding: 30px 230px;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;     
+    align-items: center;
+}
+
+#ourcompany{
+    position: absolute;
+    top: 55%;
+    left: 0;
+    color: #fff;
+    padding: 30px 230px;
+    height: 40%;
+    justify-content: space-between;
+    display: grid;
+}
+#ourcompany a{
+text-decoration: none;
+color: hsl(256, 26%, 20%);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+#helpme{
+    position: absolute;
+    top: 55%;
+    left: 26%;
+    color: #fff;
+    padding: 30px 230px;
+    height: 40%;
+    justify-content: space-between;
+    display: grid;
+}
+#helpme a{
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#contact{
+    position: absolute;
+    top: 52%;
+    left: 48.5%;
+    color: #fff;
+    padding: 50px 230px;
+    height: 40%;
+    justify-content: space-between;
+    display: grid;
+}
+
+#contact a{
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#others{
+    position: absolute;
+    top: 52%;
+    left: 72%;
+    color: #fff;
+    padding: 50px 230px;
+    height: 40%;
+    justify-content: space-between;
+    display: grid;
+}
+
+#others a{
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#ourcompany a:hover,#helpme a:hover,#contact a:hover,#others a:hover{
+    text-decoration: underline;
+}
